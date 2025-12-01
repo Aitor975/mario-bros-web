@@ -51,17 +51,23 @@ Haz clic en el botón de reproducción para revivir la música que marcó genera
 <audio controls>
     <source src="Mario bros/auds/mario_bros_classic.mp3" type="audio/mp3">
 </audio>
-<form action="https://formspree.io/f/mgvgyagn" method="POST" enctype="text/plain">
-    <h3>¿Cual fue tu juego favorito? o ¿Cual te gusto mas?</h3>
-   <br> <input type="text" name="nombre" placeholder="Tu nombre" required> </form> </br>
-   <br> <input type="email" name="correo" placeholder="Tu correo" required> </br>
-   <br> <select name="juego"> </br>
+<form action="https://formspree.io/f/mgyvgagn" method="POST">
+  <h3>¿Cuál fue tu juego favorito? ¿O cuál te gustó más?</h3>
+
+  <input type="text" name="nombre" placeholder="Tu nombre" required><br><br>
+
+  <input type="email" name="correo" placeholder="Tu correo" required><br><br>
+
+  <select name="juego" required>
+    <option value="">Selecciona un juego</option>
     <option value="mario1">Mario Bros (1985)</option>
     <option value="mario64">Mario 64</option>
     <option value="mario galaxy">Mario Galaxy</option>
-  </select>
+  </select><br><br>
+
   <button type="submit">Enviar</button>
 </form>
-</body>
+
 
 </html>
+
